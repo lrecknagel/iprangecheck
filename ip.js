@@ -54,7 +54,8 @@ class IP4 {
       console.log(isIP4(this.ip));
     } else if (
       _arguments.length === 4 &&
-      _arguments.every( arg => (typeof(arg) === 'number' || typeof(arg) === 'string') && !Number.isNaN(Number(arg)) )
+      _arguments.every( arg => (typeof(arg) === 'number' || typeof(arg) === 'string') && !Number.isNaN(Number(arg))) &&
+      _arguments.every( arg => 0 <= Number(arg) <= 255)
     ) {
       // try to create ip4 from 4 input numbers / strings
       this.oct1 = Number(_arguments[0])
