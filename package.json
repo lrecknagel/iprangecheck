@@ -7,7 +7,7 @@
   "author": "Lucas Recknagel <lucas91@me.com>",
   "license": "THE UNLICENSE",
   "devDependencies": {
-    "jest": "^20.0.4"
+    "jest": "^23.6.0"
   },
   "scripts": {
     "test": "jest"
