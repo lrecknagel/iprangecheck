@@ -7,9 +7,13 @@
   "author": "Lucas Recknagel <lucas91@me.com>",
   "license": "THE UNLICENSE",
   "devDependencies": {
-    "jest": "^20.0.4"
+    "eslint": "^5.6.1",
+    "jest": "^23.6.0"
   },
   "scripts": {
     "test": "jest"
+  },
+  "dependencies": {
+    "ip-address": "^5.8.9"
   }
 }
